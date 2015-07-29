@@ -5398,9 +5398,9 @@ button.close {
   .carousel-inner > .item {
     display: none;
     position: relative;
-    -webkit-transition: 0.6s ease-in-out left;
-    -o-transition: 0.6s ease-in-out left;
-    transition: 0.6s ease-in-out left; }
+    -webkit-transition: 1.4s ease-in-out left;
+    -o-transition: 1.4s ease-in-out left;
+    transition: 1.4s ease-in-out left; }
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
       display: block;
@@ -5794,3 +5794,40 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.welcome {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/fancy_deboss.png");
+  background-color: #FDFDFD; }
+
+.cover-photo {
+  box-shadow: -1px 8px 41px -10px #d6d6d3; }
+
+.social {
+  padding: 10px; }
+  .social a {
+    color: #CAC8C8;
+    margin-top: 5px;
+    float: right;
+    font-size: 1.2em;
+    border-radius: 20%;
+    box-shadow: 1px 2px 28px -9px rgba(0, 0, 0, 0.15); }
+    .social a:hover {
+      color: #9c7777; }
+  .social i:hover {
+    color: #ad9842; }
+  .social .fa-stack {
+    color: #8C8D8E; }
+  .social .fa-square-o {
+    color: #7E7677; }
+    .social .fa-square-o:hover {
+      color: #ad9842; }
+
+.social-land {
+  display: block;
+  margin-top: 20px;
+  border-radius: 10%; }
+  .social-land a {
+    text-align: center; }
+
+.nav {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/double_lined.png");
+  background-color: #FDFDFD; }

@@ -5797,12 +5797,14 @@ button.close {
 body {
   background-color: #141a21; }
 
+b {
+  color: #a1583b; }
+
 strong {
   font-weight: 900;
   font-size: 1em; }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Passion One', cursive;
   font-weight: 400;
   color: #7c909f; }
 
@@ -5825,6 +5827,14 @@ a:hover {
 a:visited {
   text-decoration: none; }
 
+.myapp {
+  z-index: -1;
+  margin-left: 10px;
+  margin-left: 10px; }
+
+.about h2 {
+  margin-left: 15px; }
+
 .cover-photo {
   padding: 0px !important;
   margin-left: auto !important;
@@ -5833,6 +5843,8 @@ a:visited {
   border: 10px solid #212c37; }
 
 .social {
+  margin-right: auto;
+  z-index: 2;
   position: fixed;
   float: right;
   margin-top: 50px;
@@ -5886,17 +5898,23 @@ a:visited {
       margin-bottom: 10px; } }
 .navbar {
   text-align: center;
+  z-index: 1;
   background-color: #232f3a; }
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top; }
+    .navbar .navbar-nav > li {
+      float: left; }
   .navbar i {
     margin-left: 3px;
     font-size: 1.5em; }
   .navbar .band-name {
     margin: 5px 0;
-    font-size: 2.75em; }
+    font-size: 2.75em;
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto; }
     .navbar .band-name a {
       color: #a1583b;
       text-align: center; }
@@ -5917,6 +5935,9 @@ a:visited {
     margin: 1px 0;
     font-size: 1.75em; }
 
+  .navbar-nav {
+    margin: 0 10px 0 10px; }
+
   .navbar-nav > li {
     /* <- this affects all navbars */
     float: none;
@@ -5925,6 +5946,12 @@ a:visited {
   .navbar-custom > li {
     /* <- this affects just my footer navbar */
     display: inline-block; } }
+.about #about, .see #see, .hear #hear, .support #support, .contact #contact {
+  background-color: #2b3947;
+  border-radius: 5px 0 0 5px; }
+  .about #about a, .see #see a, .hear #hear a, .support #support a, .contact #contact a {
+    color: #b3888a; }
+
 .page-topper {
   padding-bottom: 0px;
   margin-bottom: 0px; }

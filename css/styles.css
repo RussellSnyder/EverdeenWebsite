@@ -5794,40 +5794,174 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.welcome {
-  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/fancy_deboss.png");
-  background-color: #FDFDFD; }
+body {
+  background-color: #141a21; }
+
+strong {
+  font-weight: 900;
+  font-size: 1em; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
+  color: #7c909f; }
+
+h1 {
+  text-transform: capitalize;
+  font-size: 4em;
+  letter-spacing: 0.10em; }
+
+p {
+  font-weight: 400; }
+
+a {
+  font-weight: 700;
+  color: white; }
+
+a:hover {
+  text-decoration: none;
+  color: #a1583b; }
+
+a:visited {
+  text-decoration: none; }
 
 .cover-photo {
-  box-shadow: -1px 8px 41px -10px #d6d6d3; }
+  padding: 0px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  border: 10px solid #212c37; }
 
 .social {
-  padding: 10px; }
+  position: fixed;
+  float: right;
+  margin-top: 50px;
+  text-align: right; }
   .social a {
-    color: #CAC8C8;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box !important;
+    overflow: clip;
     margin-top: 5px;
-    float: right;
-    font-size: 1.2em;
-    border-radius: 20%;
-    box-shadow: 1px 2px 28px -9px rgba(0, 0, 0, 0.15); }
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px; }
     .social a:hover {
-      color: #9c7777; }
-  .social i:hover {
-    color: #ad9842; }
+      color: #ffa948; }
+  .social i {
+    background-position: bottom;
+    background-color: rgba(124, 144, 159, 0.2);
+    border-radius: 20%; }
+    .social i:hover {
+      color: #ffa948;
+      border-radius: 5%;
+      background-color: rgba(124, 135, 159, 0.4); }
   .social .fa-stack {
-    color: #8C8D8E; }
+    color: #a1583b; }
   .social .fa-square-o {
-    color: #7E7677; }
+    color: #7c909f; }
     .social .fa-square-o:hover {
-      color: #ad9842; }
+      color: #a1583b; }
 
-.social-land {
-  display: block;
-  margin-top: 20px;
-  border-radius: 10%; }
-  .social-land a {
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 768px) {
+  .social {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 2px; }
+    .social a {
+      position: relative;
+      display: inline;
+      float: right;
+      padding: 0px;
+      margin-left: 1%;
+      margin-right: 1%;
+      box-sizing: content-box !important;
+      overflow: yes;
+      margin-top: 0px;
+      font-size: 0.9em;
+      margin-bottom: 10px; } }
+.navbar {
+  text-align: center;
+  background-color: #232f3a; }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+  .navbar i {
+    margin-left: 3px;
+    font-size: 1.5em; }
+  .navbar .band-name {
+    margin: 5px 0;
+    font-size: 2.75em; }
+    .navbar .band-name a {
+      color: #a1583b;
+      text-align: center; }
+      .navbar .band-name a:hover {
+        color: #ffa948; }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .navbar-nav > li {
+    /* <- this affects all navbars */
+    float: none;
     text-align: center; }
 
-.nav {
-  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/double_lined.png");
-  background-color: #FDFDFD; }
+  .navbar-custom > li {
+    /* <- this affects just my footer navbar */
+    display: inline-block; } }
+@media (max-width: 479px) {
+  .band-name {
+    margin: 1px 0;
+    font-size: 1.75em; }
+
+  .navbar-nav > li {
+    /* <- this affects all navbars */
+    float: none;
+    text-align: center; }
+
+  .navbar-custom > li {
+    /* <- this affects just my footer navbar */
+    display: inline-block; } }
+.page-topper {
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+  .page-topper .band-name {
+    margin-left: 40px; }
+    .page-topper .band-name a {
+      color: #a1583b;
+      text-align: center; }
+      .page-topper .band-name a:hover {
+        color: #ffa948; }
+  .page-topper #bandcamp-player {
+    border: 0px;
+    margin-top: 30px; }
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 768px) {
+  .page-topper #bandcamp-player {
+    margin-top: 1px; } }
+footer {
+  position: relative;
+  margin-bottom: 50px;
+  padding: 10px auto 10px auto;
+  background: #7c909f; }
+  footer p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 10px; }
+  footer br {
+    line-height: 30px; }
+
+/* iPhone 4 ----------- */
+@media (max-width: 768px) {
+  footer {
+    margin-bottom: 110px; } }
+@media (max-width: 490px) {
+  footer {
+    margin-bottom: 160px; } }

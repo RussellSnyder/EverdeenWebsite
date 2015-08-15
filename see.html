@@ -30,6 +30,15 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="myApp see">
 
     	<div class="row">
@@ -112,60 +121,189 @@
         <!-- Introduction Row -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">We live music
-                    <small>Meet the Band</small>
+                <h1 class="page-header">We Get Around
+                    <small> Take a look</small>
                 </h1>
                 <p>Hello?  na yeah?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
             </div>
         </div>
 
-    <div class="row">
-            <div class="col-md-12">
-                <div id="Carousel" class="carousel slide">
-                     
-                    <ol class="carousel-indicators">
-                        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#Carousel" data-slide-to="1"></li>
-                        <li data-target="#Carousel" data-slide-to="2"></li>
-                    </ol>
-                     
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        
-                    <div class="item active">
-                        <div class="row">
-                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/Ian_lonely.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/IanAndSam.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/InLove.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/cover.jpg" alt="Image" style="max-width:100%;"></a></div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-                     
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/live1.jpg" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/live2.jpg" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/live3.jpg" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/live5.jpg" alt="Image" style="max-width:100%;"></a></div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-                     
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/miniBand.jpg" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/oldBand1.jpg" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="img/perfectSmall.jpg" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-                     
-                    <div><!--.carousel-inner-->
-                      <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                      <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
-                    </div><!--.Carousel-->
-                </div> 
-            </div><!--.container-->
-        </div>        
+    <section id="photo-gallery">
+    <div class="container">
+        <h1 class="page-header">Photos</h1>
+        <div class="row">
+            <article>
+                <h2>Photo Shoot <small>July 2015</small></h2>
+                <div class="col-md-8">
+                    <ul class="photos gallery-parent">
+                        <li>
+                            <a href="img/BandPhoto1.png" 
+                                data-title="Image One" 
+                                data-footer="This is image 1" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/BandPhoto1.png" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/BandPhoto2.png" 
+                                data-title="Image Two" 
+                                data-footer="This is image 2" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/BandPhoto2.png" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/BandPhoto3.png" 
+                                data-title="Image Three" 
+                                data-footer="This is image 3" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/BandPhoto3.png" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/BandPhoto4.png" 
+                                data-title="Image Four" 
+                                data-footer="This is image 4" 
+                                title="This is image four"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/BandPhoto4.png" class="img-thumbnail"></a>
+                        </li>
+                    </ul>
+                </div><!-- col-md-8 end -->
+            </article>
+            <aside>
+                <div class="col-md-4">
+                    <h3>Facebook photos</h3>
+                    <div class="fb-page" data-href="https://www.facebook.com/everdeenmusic" data-width="100%" data-height="700px;" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="true">
+                        <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/everdeenmusic"><a href="https://www.facebook.com/everdeenmusic"></a></blockquote></div>
+                    </div>
+                </div>
+            </aside>
+        </div> <!-- end row -->
+        <div class="row">
+            <article>
+           <h2>Live Shows<small> Feel the Energy</small></h2>
+                <div class="col-md-8">
+                    <ul class="photos gallery-parent">
+                        <li>
+                            <a href="img/live1.jpg" 
+                                data-title="Image One" 
+                                data-footer="This is image 1" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/live1.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/live2.jpg" 
+                                data-title="Image Two" 
+                                data-footer="This is image 2" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/live2.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/live3.jpg" 
+                                data-title="Image Three" 
+                                data-footer="This is image 3" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/live3.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/live4.jpg" 
+                                data-title="Image Four" 
+                                data-footer="This is image 4" 
+                                title="This is image four"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/live4.jpg" class="img-thumbnail"></a>
+                        </li>
+                    </ul>
+                </div><!-- col-md-8 end -->
+                <aside>
+                    <div class="col-md-4">
+                        <h3>In the Studio</h3>
+                        <div class="fb-post" data-href="https://www.facebook.com/everdeenmusic/photos/a.750892901649900.1073741828.199764830096046/750892541649936/?type=1" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/everdeenmusic/photos/a.750892901649900.1073741828.199764830096046/750892541649936/?type=1">Posted by <a href="https://www.facebook.com/everdeenmusic">Everdeen</a> on&nbsp;<a href="https://www.facebook.com/everdeenmusic/photos/a.750892901649900.1073741828.199764830096046/750892541649936/?type=1">Sunday, December 7, 2014</a></blockquote></div></div>                
+                    </div>
+                </aside>
+            </article>
+        </div> <!-- end row -->
+        <div class="row">
+            <article>
+           <h2>Miscellaneous<small> What are these?</small></h2>
+                <div class="col-md-8">
+                <ul class="photos gallery-parent">
+                        <li>
+                            <a href="img/cover.jpg" 
+                                data-title="Image One" 
+                                data-footer="This is image 1" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/cover.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/Ian_lonely.jpg.jpg" 
+                                data-title="Image Two" 
+                                data-footer="This is image 2" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/Ian_lonely.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/IanAndSam.jpg.jpg" 
+                                data-title="Image Three" 
+                                data-footer="This is image 3" 
+                                title="This is image one"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/IanAndSam.jpg.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/InLove.jpg" 
+                                data-title="Image Four" 
+                                data-footer="This is image 4" 
+                                title="This is image four"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/InLove.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/miniBand.jpg" 
+                                data-title="Image Four" 
+                                data-footer="This is image 4" 
+                                title="This is image four"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/miniBand.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/oldBand1.jpg" 
+                                data-title="Image Four" 
+                                data-footer="This is image 4" 
+                                title="This is image four"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/oldBand1.jpg" class="img-thumbnail"></a>
+                        </li>
+                        <li>
+                            <a href="img/recording_perfectlines.png" 
+                                data-title="Image Four" 
+                                data-footer="This is image 4" 
+                                title="This is image four"
+                                    data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top"                                    >
+                            <img src="img/recording_perfectlines.png" class="img-thumbnail"></a>
+                        </li>
+                    </ul>
+                </div><!-- col-md-8 end -->
+                <aside>
+                    <div class="col-md-4">
+                        <h3>In the Studio</h3>
+                        <div class="fb-post" data-href="https://www.facebook.com/everdeenmusic/photos/a.545300035542522.1073741826.199764830096046/743969159008941/?type=1" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/everdeenmusic/photos/a.545300035542522.1073741826.199764830096046/743969159008941/?type=1">Posted by <a href="https://www.facebook.com/everdeenmusic">Everdeen</a> on&nbsp;<a href="https://www.facebook.com/everdeenmusic/photos/a.545300035542522.1073741826.199764830096046/743969159008941/?type=1">Monday, November 24, 2014</a></blockquote></div></div>                    
+                    </div>
+                </aside>
+
+            </article>
+        </div> <!-- end row -->
+
+</section>
+
+
+        
 
         <hr>
 
@@ -193,6 +331,17 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+        <script src="js/ekko-lightbox.js"></script>
+        <script>
+          $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    }); 
+          $(function () {
+      $('[data-hover="tooltip"]').tooltip()
+    })
+        </script>
+
 
 </div>
 </body>

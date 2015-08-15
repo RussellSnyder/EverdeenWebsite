@@ -5798,13 +5798,6 @@ button.close {
 body {
   background-color: #141a21; }
 
-article {
-  border-bottom: 2px dashed white;
-  border-width: 50%;
-  width: 70%;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
 b {
   color: #a1583b; }
 
@@ -6014,3 +6007,9 @@ footer {
 
 .photos img {
   width: 100%; }
+
+#photo-gallery .row {
+  border-bottom: 2px dashed white;
+  border-width: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px; }

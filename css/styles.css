@@ -5796,6 +5796,8 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
+  background-color: #141a21;
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/bgnoise_lg.png");
   background-color: #141a21; }
 
 hr {
@@ -5837,6 +5839,11 @@ a:visited {
 
 .container {
   margin-right: 50px; }
+
+section {
+  box-shadow: -1px 1px 33px 2px rgba(186, 186, 186, 0.1);
+  padding: 4px;
+  background-color: rgba(245, 255, 255, 0.05); }
 
 body {
   overflow-x: hidden; }
@@ -5908,6 +5915,7 @@ body {
 .navbar {
   text-align: center;
   z-index: 1;
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_grunge.png");
   background-color: #232f3a; }
   .navbar .navbar-nav {
     display: inline-block;
@@ -5991,7 +5999,8 @@ footer {
   position: relative;
   margin-bottom: 50px;
   padding: 10px auto 10px auto;
-  background: #7c909f; }
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/double_lined.png");
+  background-color: #7c909f; }
   footer p {
     font-size: 1.3em;
     font-weight: 400;
@@ -6040,11 +6049,11 @@ footer {
 .about .row {
   margin-top: 10px; }
 
-.see .schedule a {
+.schedule a {
   color: #5f1013; }
-.see .schedule ul {
+.schedule ul {
   background: #212c37; }
-.see .schedule h3 {
+.schedule h3 {
   margin-left: 15px; }
-.see .schedule ul li {
+.schedule ul li {
   background: #99a9b5; }

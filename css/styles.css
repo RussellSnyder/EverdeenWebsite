@@ -5798,6 +5798,9 @@ button.close {
 body {
   background-color: #141a21; }
 
+hr {
+  width: 75%; }
+
 b {
   color: #a1583b; }
 
@@ -5834,6 +5837,9 @@ a:visited {
 
 .container {
   margin-right: 50px; }
+
+body {
+  overflow-x: hidden; }
 
 .about h2 {
   margin-left: 15px; }
@@ -5955,23 +5961,31 @@ a:visited {
   .about #about a, .see #see a, .hear #hear a, .support #support a, .contact #contact a {
     color: #b3888a; }
 
-.page-topper {
+.page-topper .band-name {
+  margin-left: 40px; }
+  .page-topper .band-name a {
+    color: #a1583b;
+    text-align: center; }
+    .page-topper .band-name a:hover {
+      color: #ffa948; }
+
+.page-topper-land {
   padding-bottom: 0px;
   margin-bottom: 0px; }
-  .page-topper .band-name {
+  .page-topper-land .band-name {
     margin-left: 40px; }
-    .page-topper .band-name a {
+    .page-topper-land .band-name a {
       color: #a1583b;
       text-align: center; }
-      .page-topper .band-name a:hover {
+      .page-topper-land .band-name a:hover {
         color: #ffa948; }
-  .page-topper #bandcamp-player {
+  .page-topper-land #bandcamp-player {
     border: 0px;
     margin-top: 30px; }
 
 /* iPads (portrait and landscape) ----------- */
 @media (max-width: 768px) {
-  .page-topper #bandcamp-player {
+  .page-topper-land #bandcamp-player {
     margin-top: 1px; } }
 footer {
   position: relative;
@@ -6008,8 +6022,29 @@ footer {
 .photos img {
   width: 100%; }
 
-#photo-gallery .row {
-  border-bottom: 2px dashed white;
-  border-width: 50%;
-  margin-bottom: 10px;
+#photo-gallery h2 {
+  width: 50%;
+  padding: 5px 0px;
+  border-top: 2px solid white; }
+
+.about .band p {
+  margin: 0 10px 10px 10px; }
+
+.about h2 {
+  border-bottom: 1px solid white;
+  width: 80%;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-top: 5px; }
+
+.about .row {
   margin-top: 10px; }
+
+.see .schedule a {
+  color: #5f1013; }
+.see .schedule ul {
+  background: #212c37; }
+.see .schedule h3 {
+  margin-left: 15px; }
+.see .schedule ul li {
+  background: #99a9b5; }
